@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap');
+
+
+:root {
+    --color-secundary: rgb(203, 27, 27);
+    --color-bg: #fafafa;
+    --box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  body {
+    font-family: "Rubik", sans-serif;
+    background-color: var(--color-bg);
+  }
+  
+  .container {
+    padding: 0 100px;
+  }
+  
+  /* SECCION CHECK BOX*/
+  
+  .BarraBusqueda__exterior {
+    display: flex;
+    padding: 10px 0;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  
+  .BarraBusqueda__interior {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    background: white;
+    height: 100px;
+    box-shadow: var(--box-shadow);
+    border-radius: 10px;
+    padding: 20px 10px;
+    font-size: 10px;
+  }
+
+  .BarraBusqueda__interior h3{
+    margin-top: 24px;
+  }
+  
+  .card__row{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .available_rates_list{
+    width: 400px;
+  }
+  
+  .available_rates_item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px;
+    border-color: gray;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-left: 22px;
+    border-bottom:solid 0.5px rgba(203, 203, 203, 0.976) ;
+    width:460px;
+    accent-color: var(--color-secundary);
+    font-weight: 500;
+    
+  }
+
+  .available_rates_list2{
+    width: 100px;
+    position: relative;
+    right: 100px;
+  }
+  .available_rates_item2{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 22px;
+    width:100px;
+    flex-direction: column;
+    align-self: start;
+    position: relative;
+    bottom: 20px;
+   
+  }
+
+  .card__lista{
+    margin-top: 10px;
+  }
+  .available_rates_item_2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px;
+    border-color: gray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 22px;
+    width:460px;
+    accent-color: var(--color-secundary);
+    font-weight: 500;
+    
+  }
+  
+  .form-control {
+    width: 120px;
+    height: 45px;
+    background-color: rgba(243, 243, 243, 0.976);
+    padding: 0px 15px;
+    border: none;
+    border-radius: 10px;
+    border-bottom: none;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .check {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    width: 110px;
+  }
+  
+  .card{
+    width: 100%;
+    background-color: white;
+    height: auto;
+    box-shadow: var(--box-shadow);
+    border-radius: 10px;
+    padding: 20px 10px;
+    font-size: 10px;
+  }
+  
+  .car__uper_row{
+    display: flex;
+}
+.auto{
+    padding-bottom: 20px;
+}
+  
+  .check label{
+    white-space: nowrap;
+    margin-left: 5px;
+  }
+  
+  .check__container{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .check input {
+    accent-color: var(--color-secundary);
+  }
+  
+  .auto {
+    display: flex;
+  }
+  .auto img {
+    width: 320px;
+    height: 120px;
+  }
+  
+  .auto__nombre {
+    width: 300px;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-left: 40px;
+    font-size: 12px;
+  }
+  
+  .auto__nombre p {
+    letter-spacing: 2px;
+  }
+  
+  .auto__btn {
+    width: 140px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    padding: 30px, 20px;
+    cursor: pointer;
+    background-color: var(--color-secundary);
+    color: white;
+    margin-top: 50px;
+    margin-right: 20px;
+    font-weight: 500;
+    transition: 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .auto__btn:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  .auto__subtitulo {
+    padding-left: 20px;
+    color: rgba(203, 203, 203, 0.976);
+    letter-spacing: 2px;
+  }
+  
+  .auto__lista {
+    position: relative;
+    right: 50px;
+  }
+  
+  .textoo{
+    font-weight: 400;
+    margin: 0;
+  }
+  ul {
+    list-style-type: none;
+  }
+  
+  .tabla__subtitulo {
+    color: rgba(203, 203, 203, 0.976);
+    letter-spacing: 2px;
+   position: relative;
+   left: 23px;
+  }
+  .tabla__checkbox {
+    accent-color: var(--color-secundary);
+  }
+  
+  .auto__tabla {
+    position: relative;
+    bottom: 6px;
+    left: 25px;
+    border-collapse: separate;
+    width: 400px;
+  }
+  
+  .tabla__destacado {
+    color: var(--color-secundary);
+  }
+  
+  .tabla__destacado.usd {
+    font-size: 15px;
+  }
+  
+  .tabla__destacado.usd p {
+    font-weight: 300;
+  }
+  
+  .tabla__destacado.usd b {
+    font-size: 18px;
+  }
+  ul .lista {
+    margin-right: 50px;
+  }
+  
+  td {
+    font-weight: 500;
+  }
+  
+  .modal {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    transition: all 500ms ease;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 10px;
+  }
+  
+  #btn-modal:checked ~ .modal {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .contenedor {
+    width: 400px;
+    height: 430px;
+    margin: auto;
+    background: white;
+    box-shadow: var(--box-shadow);
+    transition: all 500ms ease;
+    border-radius: 10px;
+    position: relative;
+  }
+  
+  .contenedor header {
+    padding-top: 12px;
+    margin-right: 25px;
+    background: white;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  header h4 {
+    padding-left: 50px;
+  }
+  
+  .contenedor label {
+    position: absolute;
+    top: 23px;
+    right: 25px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  
+  #btn-modal {
+    display: none;
+  }
+  
+  .lbl-modal {
+    color: var(--color-secundary);
+    cursor: pointer;
+  }
+  .ul__modal {
+    padding-left: 50px;
+    vertical-align: middle;
+    font-weight: 400;
+
+  }
+  
+  .btn__icon{
+    margin-right: 10px;
+  }
+  
+  .contenido {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .subtitulo__modal {
+    color: rgba(203, 203, 203, 0.976);
+    letter-spacing: 2px;
+    padding-left: 50px;
+  }
+  .lista__modal {
+    list-style: url(/assets/images/lista.png);
+    align-items: center;
+  }
+
+  
+.usd{
+    font-weight: 300;
+    font-size: 15px;
+    color: rgb(203, 27, 27);
+}
+
+.usd b{
+    font-weight: 700;
+}
+.img{
+    width: 12px;
+    margin-right: 5px;
+}
+
+.available_rates_item3{
+    display: flex;
+    margin-top: 0px;
+    margin-left: 22px;
+    width:300px;
+    flex-direction: column;
+    align-self: start;
+    position: relative;
+    bottom: 5px;
+    font-weight: 200;
+    left: 5px;
+   
+  }
+
+.img2{
+    width: 20px;
+    position: relative;
+    top: 6px;
+}

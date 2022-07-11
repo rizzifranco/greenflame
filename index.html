@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challenge front 2022 - Rizzi Franco</title>
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="estilos.css" />
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="BarraBusqueda__exterior">
+        <article class="BarraBusqueda__interior">
+          <h3 style="color: rgb(203, 27, 27)">Filter by</h3>
+          <select class="form-control">
+            <option selected="selected">All</option>
+            <option>Group A</option>
+            <option>Group B</option>
+            <option>Group C</option>
+            <option>Group D</option>
+            <option>Group E</option>
+          </select>
+          <div class="check__container">
+            <div class="check">
+              <input type="checkbox" id="manual" />
+              <label for="manual">Manual transmission</label>
+            </div>
+            <div class="check">
+              <input type="checkbox" id="manual" />
+              <label for="manual">Automatic transmission</label>
+            </div>
+          </div>
+          <div class="check__container">
+            <div class="check">
+              <input type="checkbox" id="manual" />
+              <label for="manual">5 seats</label>
+            </div>
+            <div class="check">
+              <input type="checkbox" id="manual" />
+              <label for="manual">7 seats or more</label>
+            </div>
+          </div>
+          <div class="check__container">
+            <div class="check">
+              <input type="checkbox" id="manual" />
+              <label for="manual">Convertibles</label>
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="card">
+        <div class="card__row">
+          <div class="auto">
+            <img src="/assets/images/rio.png" alt="" />
+          </div>
+          <div class="auto__nombre">
+            <h2 style="color: rgb(203, 27, 27)">Economy</h2>
+            <p class="textoo">GROUP A (ECAR)</p>
+            <p  class="textoo">KIA RIO OR SIMILAR</p>
+          </div>
+          <button class="auto__btn">
+            <i class="bx bx-check bx-sm btn__icon"></i>Book now!</button>
+        </div>
+        <article class="card__row">
+          <div class="available_rates_list2">
+            <h4 class="auto__subtitulo">CHARACTERISTICS</h4>
+            <div class="available_rates_item2" >
+                <div class="card__lista">
+                  <img class="img" src="/assets/images/seats.svg" alt="">
+                  5 seats</div>
+                <div class="card__lista">
+                  <img class="img" src="/assets/images/bag.svg" alt="">
+                  1 large suitcase</div>
+                <div class="card__lista">
+                  <img class="img" src="/assets/images/luggage.svg" alt="">
+                  1 small suitcase</div>
+                <div class="card__lista">
+                  <img class="img" src="/assets/images/door.svg" alt="">
+                  4 doors</div>
+                <div class="card__lista">
+                  <img class="img" src="/assets/images/transmision.svg" alt="">
+                  Automatic</div>
+                <div class="card__lista">
+                  <img class="img" src="/assets/images/air-conditioning.svg" alt="">
+                  Air Conditioning</div>
+          </div>
+        </div>
+
+          <div class="available_rates_list">
+            <h4 class="tabla__subtitulo">AVAIABLE RATES</h4>
+            <div class="available_rates_item" >
+              <div class="borde">
+                <input type="radio" name="" id="radio-rates" style="margin-right: 10px;"/>
+                <label for="radio-rates">AR - Most Inclusive</label>
+                
+              </div>
+              <input type="checkbox" id="btn-modal">
+              <label for="btn-modal" class="lbl-modal">Rate Inclusions</label>
+              <div class="modal">
+                <div class="contenedor">
+                  <header style="color: rgb(203, 27, 27);">
+                    <h4>Rate information</h4>
+                  </header>
+                  <label for="btn-modal"><i class='bx bx-x' style='color:rgba(203,203,203,0.96)'  ></i></label>
+                  <div class="contenido">
+                    <h4 class="subtitulo__modal">AR - Most Inclusive</h4>
+                    <div class="available_rates_item3" >
+                      <div class="card__lista">
+                        <img class="img2" src="/assets/images/flecha.png" alt="">
+                        Unlimited mileage</div>
+                      <div class="card__lista">
+                        <img class="img2" src="/assets/images/flecha.png" alt="">
+                        LDW - Loss Damage Waiver</div>
+                      <div class="card__lista">
+                        <img class="img2" src="/assets/images/flecha.png" alt="">
+                        TPL - Third Party Liability</div>
+                      <div class="card__lista">
+                        <img class="img2" src="/assets/images/flecha.png" alt="">
+                        Local and   state TAX</div>
+                      <div class="card__lista">
+                        <img class="img2" src="/assets/images/flecha.png" alt="">
+                        Airport surcharge</div>
+                      <div class="card__lista">
+                        <img class="img2" src="/assets/images/flecha.png" alt="">
+                        First additional driver</div>
+                        <div class="card__lista">
+                          <img class="img2" src="/assets/images/flecha.png" alt="">
+                          Tank of gas</div>
+                          <div class="card__lista">
+                            <img class="img2" src="/assets/images/flecha.png" alt="">
+                            RSN - Roadside assistance</div>
+                            <div class="card__lista">
+                              <img class="img2" src="/assets/images/flecha.png" alt="">
+                              GPS - Satellite Navigator</div>
+                </div>
+                    <!-- <ul class="ul__modal">
+                      <li class="lista__modal" >Unlimited mileage</li>
+                      <li class="lista__modal" >LDW - Loss Damage Waiver</li>
+                      <li class="lista__modal" >TPL - Third Party Liability</li>
+                      <li class="lista__modal" >Local and   state TAX</li>
+                      <li class="lista__modal" >Airport surcharge</li>
+                      <li class="lista__modal" >5First additional driver</li>
+                      <li class="lista__modal" >Tank of gas</li>
+                      <li class="lista__modal" >RSN - Roadside assistance</li>
+                      <li class="lista__modal" >GPS - Satellite Navigator</li>
+    
+                    </ul> -->
+    
+                  </div>
+                </div>
+               </div>
+              <div class="usd">
+                <span>USD</span>
+                <b>752,99</b>
+              </div>
+              
+            </div>
+            <div class="available_rates_item">
+              <div>
+                <input class="tabla__checkbox" type="radio" name="" id="radio-rates" style="margin-right: 10px;"/>
+                <label for="radio-rates">AR - Most Inclusive</label>
+              </div>
+              <div class="lbl-modal">Rate Inclusions</div>
+              <div class="usd">
+                <span>USD</span>
+                <b>752,99</b>
+              </div>
+              
+            </div>
+            <div class="available_rates_item">
+              <div>
+                <input type="radio" name="" id="radio-rates" style="margin-right: 10px;"/>
+                <label for="radio-rates">AR - Most Inclusive</label>
+              </div>
+              <div class="lbl-modal">Rate Inclusions</div>
+              <div class="usd">
+                <span>USD</span>
+                <b>752,99</b>
+              </div>
+              
+            </div>
+            <div class="available_rates_item">
+              <div>
+                <input type="radio" name="" id="radio-rates" style="margin-right: 10px;"/>
+                <label for="radio-rates">AR - Most Inclusive</label>
+              </div>
+              <div class="lbl-modal">Rate Inclusions</div>
+              <div class="usd">
+                <span>USD</span>
+                <b>752,99</b>
+              </div>
+              
+            </div>
+            <div class="available_rates_item_2">
+              <div>
+                <input type="radio" name="" id="radio-rates" style="margin-right: 10px;"/>
+                <label for="radio-rates">AR - Most Inclusive</label>
+              </div>
+              <div class="lbl-modal">Rate Inclusions</div>
+              <div class="usd">
+                <span>USD</span>
+                <b>752,99</b>
+              </div>
+              
+            </div>
+          </div>
+
+        </article>
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/7973bdd60d.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
